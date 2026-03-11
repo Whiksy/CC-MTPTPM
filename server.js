@@ -1,7 +1,11 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+<<<<<<< HEAD
 const PORT = 5000;
+=======
+const PORT = 8080;
+>>>>>>> 6a651e8c2416f5fff4ccfbeb75e3bca388ca8438
 
 app.use(express.static(__dirname));
 
